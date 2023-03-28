@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PokemonSeeder::class
         ]);
+
+        // Pokemon::factory(18)->create();
     }
 }
